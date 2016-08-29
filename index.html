@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<!--Script for search field -->
+ <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+  <link rel="stylesheet" type="text/css" media="all" href="css/styleDropdown.css">
+  <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery.autocomplete.min.js"></script>
+  <script type="text/javascript" src="js/currency-autocomplete.js"></script>
+
+  <!--end-->
+
+<script src="js/script.js"></script>
+<link rel="stylesheet" href="css/style.css">
+<link rel="shortcut icon" href="img/icon.png">
+<title>Best Beverages</title>
+</head>
+<body>
+<header>
+
+	<h1>Favorite Beverages</h1>
+	
+		
+</header>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Non alcoholic</a>
+    <div class="dropdown-content">
+      <a href="#">Milk</a>
+      <a href="#">Water</a>
+      <a href="#">Soda</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Beer</a>
+    <div class="dropdown-content">
+      <a href="#">Dark</a>
+      <a href="#">Lager</a>
+      <a href="#">Indian pale ale</a>
+      <a href="#">Weisbeer</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Wine</a>
+    <div class="dropdown-content">
+      <a href="#">Red</a>
+      <a href="#">White</a>
+      <a href="#">Cava</a>
+      <a href="#">Champagne</a>
+      <a href="#">Rosé</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="#" class="dropbtn">Liquor</a>
+    <div class="dropdown-content">
+      <a href="#">Aquavit</a>
+      <a href="#">Burbon</a>
+      <a href="#">Tequila</a>
+      <a href="#">Whiskey</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="#" class="dropbtn">Drinks</a>
+    <div class="dropdown-content">
+      <a href="#">Summer drinks</a>
+      <a href="#">Macho drinks</a>
+      <a href="#">Warm drinks</a>
+    </div>
+  </li>
+  <li>
+  	 <div id="searchfield">
+        <form><input type="text" name="beverage" class="biginput" id="autocomplete">- Search</form>
+      </div>
+  </li>
+</ul>
+
+  <div id="outputbox">
+  	<div id="outputcontent"></div>
+  </div>
+
+
+
+</body>
+</html>
